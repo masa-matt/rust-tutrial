@@ -1,3 +1,9 @@
+use ::rug::Integer;
+use std::{
+    ops::{Div, Sub},
+    vec,
+};
+
 fn main() {
     if_expressions();
     if_multiple_conditions();
@@ -11,7 +17,9 @@ fn main() {
 
     // Exercises
     // Convert temperatures between Fahrenheit and Celsius.
+    convert_fahrenheit_celsius();
     // Generate the nth Fibonacci number.
+    fibonacci();
     // Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
 }
 
@@ -131,4 +139,31 @@ fn for_alternative_while() {
         println!("{number}!");
     }
     println!("LIFTOFF!!!");
+}
+
+fn convert_fahrenheit_celsius() {
+    let fahrenheit = 10.5;
+    let celsius = fahrenheit_to_celsius(fahrenheit);
+    println!("The temperatures is: {fahrenheit}°F({celsius}°C)");
+}
+
+fn fahrenheit_to_celsius(x: f64) -> f64 {
+    x.sub(32.0).div(1.8000)
+}
+
+fn fibonacci() {
+    // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+    let n = 10;
+    let result = fib(n);
+    println!("Fibonacci number. If n is {n}, result is {result}");
+}
+
+fn fib(n: usize) -> Integer {
+    let mut f: Vec<Integer> = vec![Integer::from(0), Integer::from(1)];
+
+    for i in 2..(n + 1) {
+        f.push(f[i - 1].clone() + f[i - 2].clone());
+    }
+
+    f[n].clone()
 }
