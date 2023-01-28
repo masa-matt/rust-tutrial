@@ -1,0 +1,13 @@
+[workspace]
+members = [
+  "ch01-03-hello-cargo/",
+  "ch02-00-guessing-game-tutorial/",
+  "ch03-01-variables-and-mutability/",
+  "ch03-02-data-types/",
+  "ch03-03-how-functions-work/",
+  "ch03-04-comments/",
+  "ch03-05-control-flow/",
+  "ch04-01-what-is-ownership/",
+  "ch04-02-references-and-borrowing/",
+  "ch04-03-slices/",
+]
