@@ -16,4 +16,9 @@ members = [
   "ch06-01-defining-an-enum/",
   "ch06-02-match/",
   "ch06-03-if-let/",
+  "ch07-02-defining-modules-to-control-scope-and-privacy/",
+  "ch07-02-defining-modules-to-control-scope-and-privacy-lib/",
+  "ch07-03-paths-for-referring-to-an-item-in-the-module-tree/",
+  "ch07-04-bringing-paths-into-scope-with-the-use-keyword/",
+  "ch07-05-separating-modules-into-different-files/",
 ]
