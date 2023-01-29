@@ -13,4 +13,7 @@ members = [
   "ch05-01-defining-structs/",
   "ch05-02-example-structs/",
   "ch05-03-method-syntax/",
+  "ch06-01-defining-an-enum/",
+  "ch06-02-match/",
+  "ch06-03-if-let/",
 ]
