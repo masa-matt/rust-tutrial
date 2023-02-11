@@ -21,4 +21,7 @@ members = [
   "ch07-03-paths-for-referring-to-an-item-in-the-module-tree/",
   "ch07-04-bringing-paths-into-scope-with-the-use-keyword/",
   "ch07-05-separating-modules-into-different-files/",
+  "ch08-01-vectors/",
+  "ch08-02-strings/",
+  "ch08-03-hash-maps/",
 ]
