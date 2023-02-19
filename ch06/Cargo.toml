@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "ch06-01-defining-an-enum/",
+  "ch06-02-match/",
+  "ch06-03-if-let/",
+]

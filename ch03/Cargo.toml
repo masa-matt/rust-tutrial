@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "ch03-01-variables-and-mutability/",
+  "ch03-02-data-types/",
+  "ch03-03-how-functions-work/",
+  "ch03-04-comments/",
+  "ch03-05-control-flow/",
+]

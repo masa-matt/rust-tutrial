@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "ch08-01-vectors/",
+  "ch08-02-strings/",
+  "ch08-03-hash-maps/",
+]
