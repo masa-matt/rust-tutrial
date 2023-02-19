@@ -27,4 +27,8 @@ members = [
   "ch09-01-unrecoverable-errors-with-panic/",
   "ch09-02-recoverable-errors-with-result/",
   "ch09-03-to-panic-or-not-to-panic/",
+  "ch10-00-generics/",
+  "ch10-01-syntax/",
+  "ch10-02-traits/",
+  "ch10-03-lifetime-syntax/",
 ]
