@@ -1,6 +1,0 @@
-[workspace]
-members = [
-  "ch05-01-defining-structs/",
-  "ch05-02-example-structs/",
-  "ch05-03-method-syntax/",
-]

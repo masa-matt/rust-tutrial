@@ -1,4 +1,0 @@
-[workspace]
-members = [
-  "ch02-00-guessing-game-tutorial/",
-]

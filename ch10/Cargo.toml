@@ -1,7 +1,0 @@
-[workspace]
-members = [
-  "ch10-00-generics/",
-  "ch10-01-syntax/",
-  "ch10-02-traits/",
-  "ch10-03-lifetime-syntax/",
-]

@@ -1,6 +1,0 @@
-[workspace]
-members = [
-  "ch04-01-what-is-ownership/",
-  "ch04-02-references-and-borrowing/",
-  "ch04-03-slices/",
-]
